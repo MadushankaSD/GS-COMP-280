@@ -9,6 +9,14 @@ import org.springframework.web.bind.annotation.*;
 @RequestMapping("/api")
 public class DemoApplication {
 
+    /*
+         JJM Madushanka Kumara
+         GS/COMP/280
+         University of Sri Jayewardenepura
+     */
+
+
+
     @GetMapping("/hello")
     public String hello() {
         return "Hello from Java Backend!";
